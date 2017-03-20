@@ -14,7 +14,7 @@ Relatório T1 - Requisitos
 
 [5. Elicitação de Requisitos](#5-elicitação-de-requisitos)
 
-  -[5.1 Técnicas de Elicitação](#51-técnicas-de-elicitação)
+  - [5.1 Técnicas de Elicitação](#51-técnicas-de-elicitação)
 
 [6. Gerenciamento de Requisitos](#6-gerenciamento-de-requisitos)
 
