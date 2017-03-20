@@ -12,6 +12,19 @@ Relatório T1 - Requisitos
 
 [4. Processo de Engenharia de Requisitos](#4-processo-de-engenharia-de-requisitos)
 
+[5. Elicitação de Requisitos](#5-elicitação-de-requisitos)
+
+  -[5.1 Técnicas de Elicitação](#51-técnicas-de-elicitação)
+
+[6. Gerenciamento de Requisitos](#6-gerenciamento-de-requisitos)
+
+[7. Ferramenta de Gestão de Requisitos](#7-ferramenta-de-gestão-de-requisitos)
+
+[8. Planejamento do Projeto](#8-planejamento-do-projeto)
+
+[9. Considerações Finais](#9-considerações-finais)
+
+
 # 1. Introdução
 # 2. Contexto da Empresa (Zenit)
 
@@ -37,22 +50,23 @@ Relatório T1 - Requisitos
 
 
 
-# Elicitação de Requisitos
+# 5. Elicitação de Requisitos
 
 > Técnicas de elicitação que serão utilizadas, com suas devidas justificativas.
 
+## 5.1 Técnicas de Elicitação
 
-# Gerenciamento de Requisitos
+# 6. Gerenciamento de Requisitos
 
 > Estratégia de Rastreabilidade de Requisitos, Atributos de Requisitos.
 
-# Ferramenta de Gestão de Requisitos
+# 7. Ferramenta de Gestão de Requisitos
 
 > Avaliar e selecionar uma ferramenta para gestão de requisitos. Deverão ser avaliadas e comparadas, três ferramentas de gerência de requisitos. Apresentar justificativa para a escolha de uma determinada ferramenta de GR.
 
-# Planejamento do Projeto
+# 8. Planejamento do Projeto
 
 > Cronograma do Projeto. Macro-atividades e atividades. Datas de início e fim das atividades. Percentual de execução de cada atividade. Responsáveis por cada atividade. Estabelecimento de precedência entre as atividades.
 
 
-# Considerações Finais
+# 9. Considerações Finais
