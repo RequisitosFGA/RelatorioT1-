@@ -26,6 +26,11 @@ Relatório T1 - Requisitos
 
 
 # 1. Introdução
+	Um requisito pode ser definido como: Aquilo que deve ser entregado para agregar valor [1]. O termo valor é relacionado aos objetivos do negócio do cliente que estaremos trabalhando. Mas, negócio não são apenas empresas, e sim o alvo de uma organização ou pessoa qualquer.
+	A definição dos requisitos é a parte mais importante e a menos valorizada no desenvolvimento de um sistema [1]. Embora normalmente não desenvolvemos algo melhor do que o definido nos requisitos do software.
+	É comum termos soluções de softwares onde o cliente pagou para o desenvolvimento de um sistema errado, pagou para encontrar o problema e pagou para consertar [1]. Então, se desejamos economizar tempo e recursos, devemos começar com os requisitos que representam aquilo que queremos. Requisitos ruins, geram sistemas ruins.
+	Empresas de desenvolvimento e os próprios desenvolvedores sabem a importancia de um bom processo de elaboração de requisitos em um software, porém, os problemas causados pela má elaboração ainda persistem no mercado. Existem sempre desculpas relacionando o problema a falta de tempo, recursos ou treinamentos para que os requisitos sejam realmente bem descritos e elaborados.
+	Apesar da proliferação deste tipo de problema, não é fácil encontrar métricas boas sobre o efeito deste tipo de problema, já que raramente temos empresas ou desenvolvedores que monitoram e medem defeitos do sistema e ainda menos que registram os defeitos ou problemas de requisitos.
 # 2. Contexto da Empresa (Zenit)
 
 ## 2.1 Resumo Zenit
@@ -72,3 +77,4 @@ Relatório T1 - Requisitos
 # 9. Considerações Finais
 
 # 10. Referências
+[1] Goldsmith, Robin. Discovering Real Business Requirements for Software Project Success. Norwood, US: Artech House Books, 2004. ProQuest ebrary. Web. 19 March 2017.
