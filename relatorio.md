@@ -30,7 +30,7 @@ Relatório T1 - Requisitos
 >		
 > Muitas vezes podemos confundir os requisitos com código. O design, arquitetura, plataforma, tecnologias e código podem ser definidos com a palavra "como". Os requisitos do sistema estão mais próximos de "o que", sendo a definição do que deve ser feito pelo sistema e que resultará em valor agregado ao cliente. Este tipo de definição com palavras pode facilitar a separação do que agrega valor ao cliente e a organização, do que deve ser o sistema [1].
 >
-> A definição dos requisitos é a parte mais importante e a menos valorizada no desenvolvimento de um sistema [1]. Os requisitos são a fonte de informação para os designers do sistema e para grande parte dos stakeholders [2]. Assim, requisitos mal elaborados geram enormal problemas para o produto final, pois, normalmente não se desenvolve algo melhor do que o definido nos requisitos do software.
+> A definição dos requisitos é a parte mais importante e a menos valorizada no desenvolvimento de um sistema [1][3]. Os requisitos são a fonte de informação para os designers do sistema e para grande parte dos stakeholders e mesmo assim parece haver uma falta de contexto na produção de requisitos [2][4]. Assim, requisitos mal elaborados geram enormal problemas para o produto final, pois, normalmente não se desenvolve algo melhor do que o definido nos requisitos do software.
 >
 > É comum termos soluções de softwares onde o cliente pagou para o desenvolvimento de um sistema errado, pagou para encontrar o problema e pagou para consertar [1]. Então, se desejamos economizar tempo e recursos, devemos começar com os requisitos que representam aquilo que queremos. Requisitos ruins, geram sistemas ruins.
 >
@@ -89,3 +89,7 @@ Relatório T1 - Requisitos
 [1] Goldsmith, Robin. Discovering Real Business Requirements for Software Project Success. Norwood, US: Artech House Books, 2004. ProQuest ebrary. Web. 19 March 2017.
 
 [2] Gilb, Tom. Competitive Engineering : A Handbook For Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage (1). Jordan Hill, GB: Butterworth-Heinemann, 2005. ProQuest ebrary. Web. 19 March 2017.
+
+[3] Rinzler, Ben, 2010.  Telling stories : a short path to writing better software requirements.
+
+[4] Davis, Barbara, 2013 Mastering software project requirements : a framework for successful  planning, development & alignment. 
