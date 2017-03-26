@@ -52,7 +52,15 @@ Relatório T1 - Requisitos
 
 # 3. Justificativa da abordagem
 
-> Justificativas contextuais e conceituais para a escolha da abordagem(ágil, híbrido, tradicional)
+> As tecnologias do mercado estão sendo bombardeadas pela velocidade da disrupção. O mercado de start-ups cresceu exponencialmente e diversas novas empresas estão se equiparando e competindo fortemente contra a tradição das globais [5] . Pois, alguns anos atrás o poder empresarial se dava pelo domínio dos meios de produção e do mercado, e hoje temos a globalização e um mercado mais aberto através da internet e das altas tecnologias disponíveis para a população.
+> 
+> Metodologias rígidas e inflexíveis estão fadadas ao fracasso se tentarem lutar contra o processo disruptivo que temos hoje na tecnologia. Pois, em ambientes que existem mudanças contantes, devemos ser capazes de responder na velocidade necessária, nos adaptando aos problemas e entregando o máximo de valor aos clientes [5].
+> 
+> Nosso trabalho envolve um projeto com uma empresa junior federada e reconhecida pela Brasil Junior. Apesar da metodologia diferente do trabalho assalariado comum, a Zenit está lutando no mercado como qualquer outra empresa e se adaptando as mudanças de estrutura e produtos a todo momento.
+> 
+> Uma empresa junior depende obrigatoriamente do trabalho voluntário de seus membros, sendo eles parte de uma universidade. Assim, existe uma grande rotatividade de membros que entram e saem a cada semestre, a estrutura interna está em constante mudança e seus clientes também.
+> 
+> A nossa proximidade com a sede da empresa e a disponibilidade dos mesmos para encontros semanais, nos leva a utilizar uma metodologia ágil, o Scaled Agile Framework (SAFe), para nos adaptarmos as mudanças internas da empesa e conhecermos as necessidades reais da Zenit, buscando agregar o máximo de valor no produto final. 
 
 
 
@@ -93,3 +101,5 @@ Relatório T1 - Requisitos
 [3] Rinzler, Ben, 2010.  Telling stories : a short path to writing better software requirements.
 
 [4] Davis, Barbara, 2013 Mastering software project requirements : a framework for successful  planning, development & alignment. 
+
+[5] SAFe 4.0 Introduction. Overview of the Scaled Agile Framework for Lean Software and Systems Engineering.
