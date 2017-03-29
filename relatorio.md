@@ -87,14 +87,14 @@ Relatório T1 - Requisitos
 * <b>Entrevistas:</b> Discussões com pessoas que usarão o sistema, a respeito dos requisitos.
 * <b>Workshop em grupo:</b> Envolvidos no projeto criam ou revisam features alto nível do produto desejado.
 
->Métodos conversativos são bons pois, a conversa é uma maneira natural de expressar ideias, necessidades e fazer ou responder perguntas (ZHANG, 2007). Além disso, como em um primeiro momento nós iremos elicitar todos os requisitos em alto nível, estas técnicas cumprem bem o papel de nos dar uma visão inicial do produto.
+>Métodos conversativos são bons pois, a conversa é uma maneira natural de expressar ideias, necessidades e fazer ou responder perguntas [6]. Além disso, como em um primeiro momento nós iremos elicitar todos os requisitos em alto nível, estas técnicas cumprem bem o papel de nos dar uma visão inicial do produto.
 
 * <b>Análise de protocolo:</b> Uma pessoa fazendo uma atividade que o software desempenhará, falando em voz alta
 seus pensamentos para executar a atividade.
 
 >Nem sempre o cliente consegue nos dizer os requisitos nos métodos conversativos, assim, a técnica de análise
 de protocolo é de grande valia pois, consegue captar requisitos que foram esquecidos ou foram mal
-expressados pelo cliente (ZHANG, 2007).
+expressados pelo cliente [6].
 
 * <b>Cenários:</b> Sessão interativa de descrição de uma sequência de ações e eventos que uma tarefa do sistema
 irá completar.
@@ -127,3 +127,5 @@ irá completar.
 [4] Davis, Barbara, 2013 Mastering software project requirements : a framework for successful  planning, development & alignment. 
 
 [5] SAFe 4.0 Introduction. Overview of the Scaled Agile Framework for Lean Software and Systems Engineering.
+
+[6] Zhang, Zheying, 2007. Effective Requirements Development - A Comparison of Requirements Elicitation techniques.
