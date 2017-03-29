@@ -74,9 +74,33 @@ Relatório T1 - Requisitos
 
 # 5. Elicitação de Requisitos
 
-> Técnicas de elicitação que serão utilizadas, com suas devidas justificativas.
+>"In summary, requirements elicitation is a synthetic process consisting of social communication and information mining."(ZHANG, 2007, p. 2). Esta é uma definição bem suscinta, porém bastante esclarecedora do que se trata a fase de elicitação de requisitos. Nesta fase, é onde temos um contato direto com o cliente, é aqui que devemos entender suas necessidades, desejos e o contexto em que o software se encontrará.
 
 ## 5.1 Técnicas de Elicitação
+
+>Entender as necessidades e os desejos do cliente nem sempre são tarefas fáceis, sendo assim, diversas técnicas foram elaboradas com o intuito de  maximizar este entendimento. Estas técnicas são escolhidas com base no contexto do cliente e da equipe.
+
+>As técnicas que serão utilizadas neste projeto foram escolhidas com base na metodologia que será seguida, disponibilidade do cliente, contexto da organização e disponibilidade da equipe.
+
+>Nós utilizaremos 2 técnicas caracterizadss por Zhang como conversativas, 1 observativa e 1 sintética. Sendo elas:
+
+* <b>Entrevistas:</b> Discussões com pessoas que usarão o sistema, a respeito dos requisitos.
+* <b>Workshop em grupo:</b> Envolvidos no projeto criam ou revisam features alto nível do produto desejado.
+
+>Métodos conversativos são bons pois, a conversa é uma maneira natural de expressar ideias, necessidades e fazer ou responder perguntas (ZHANG, 2007). Além disso, como em um primeiro momento nós iremos elicitar todos os requisitos em alto nível, estas técnicas cumprem bem o papel de nos dar uma visão inicial do produto.
+
+* <b>Análise de protocolo:</b> Uma pessoa fazendo uma atividade que o software desempenhará, falando em voz alta
+seus pensamentos para executar a atividade.
+
+>Nem sempre o cliente consegue nos dizer os requisitos nos métodos conversativos, assim, a técnica de análise
+de protocolo é de grande valia pois, consegue captar requisitos que foram esquecidos ou foram mal
+expressados pelo cliente (ZHANG, 2007).
+
+* <b>Cenários:</b> Sessão interativa de descrição de uma sequência de ações e eventos que uma tarefa do sistema
+irá completar.
+
+>Como nós iremos, a cada planejamento de sprint, aprofundar a descrição dos requisitos junto ao cliente, a técnica de cénario
+é uma ótima escolha para nosso projeto, pois permite que o cliente detalhe um fluxo de uma determinada tarefa do programa.
 
 # 6. Gerenciamento de Requisitos
 
