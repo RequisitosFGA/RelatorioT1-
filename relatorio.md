@@ -119,7 +119,40 @@ Texto sobre Gerenciamento de Requisitos e suas competências
 
 ## 6.1 Gerenciamento de Requisitos em Metodologias Àgeis
 
+A engenharia de requisitos em um contexto àgil possui características e práticas distintas do contexto tradicional, mesmo que em boa parte siga as mesmas diretrizes [7]. Afim de compreender melhor as principais diferenças entre a abordagem ágil e a abordagem tradicional, especificamente no tópico de gerenciamento de requisitos, uma pesquisa bibliográfica profunda foi realizada pela equipe. Portanto, nesse tópico, as práticas de gerência de requisitos utilizadas em metodologias ágeis serão expostas e discutidas, afim de deixar claro quais dessas práticas serão utilizadas no projeto da equipe.
+
+### 6.1.1 Principais Aspectos e Objetivos
+
+Um dos principais aspectos das metodologias ágeis é a documentação mínima, portanto é preciso pensar em maneiras mais claras e inteligentes de acompanhar os requisitos durante o ciclo de vida de um projeto [7]. Para que a gerência de requisitos seja eficaz, é preciso ser capaz de armanezar os requisitos, priorizá-los, monitorar e controlar enventuais mudanças, além de prover a rastreabilidade dos seus requisitos [7]. Todas essas necessidades citadas podem ser realizadas, mesmo em um contexto ágil, onde a documentação não é tão presente [7].
+
+A comunicação e a interação com o cliente assumem um papel importantíssimo para a gerência de requisitos em metodologias àgeis, já que boa parte da documentação é substituida por interação com o cliente [7]. O cliente possui um papel fundamental na priorização dos requisitos, na mudança e evolução dos requisitos, fatores que impactam diretamente a gerência de requisitos [7]. Por ter um papel decisivo na gerência de requisitos, o cliente precisa estar bem informado, portanto um dos principais objetivos da gerência de requisitos em metodologias ágeis é ser transparente [7]. O gerenciamento precisa ser transparente e claro para todos os envolvidos.
+
+> "There is no sense in being precise about something when you do not even know what your are talking about" - Von Neumann
+
+A evolução dos requisitos durante o ciclo de vida do projeto é um aspecto marcante das metodologias ágeis [7][8][9]. Portanto a gerência de requisitos em um contexto ágil precisa ser capaz de de gerenciar as mudanças de forma constante e eficaz [7][8][9]. Algumas metodologias ágeis consideram o código como única fonte de documentação, entretanto não é uma boa prática de engenharia de requisitos [9], o gerenciamento de mudanças é extremamente importante para cálculos de risco e decisões arquiteturais [8], portanto é preciso haver rastreabilidade para que outros aspectos do projeto sejam encarados da forma correta [9][10].
+
+A priorização dos requisitos em metodologias ágeis é feita diversas vezes, geralmente a cada ciclo de desenvolvimento, ao contrário de metodologias tradicionais em que isso ocorre apenas uma vez [8]. Outro aspecto da priorização em metodologias ágeis são os critérios utilizados para a priorização. Enquanto as metodologias tradicionais utilizam diversos critérios como: Valor de negócio, riscos técnicos, custo, dificuldade de implementação etc; as metodologias ágeis costumam considerar apenas o valor de negócio [8].
+
+### 6.1.2 Principais Desafios
+
+A abordagem ágil, assim como qualquer outra abordagem, precisa lidar com os desafios provenientes das próprias características. Esse tópico tem como objetivo listar os principais desafios encontrados no mercado. As formas como esses desafios serão encarados estarão explícitas no tópico de estratégia de rastreabilidade. Sendo assim, algumas das principais dificuldades relacionadas ao gerenciamento de requisitos encontradas no mercado são [7][8][9][10][11]:
+
+1. **Gerenciamento de requisitos não funcionais:**
+
+  Infelizmente, é comum a falta de consideração com os requisitos não funcionais em abordagens ágeis [9]. Considerar os requisitos não funcionais somente no início do ciclo de vida do projeto é uma grande fonte de problemas [9]. Considerá-los apenas nos ciclos de desenvolvimento, que é uma prática comum de abordagens ágeis, causam problemas ainda maiores [9].
+
+2. **Critérios para priorização dos requisitos:**
+
+  Como já foi dito, o maior problema das metodologias ágeis nesse quesito é apenas considerar um critério para priorização dos requisitos: valor de negócio [8]. Entretanto, existem diversos outros critérios que podem ser analisados afim de facilitar as decisões arquiteturais e análise de risco [10].
+
+3. **Manipulação das dependências entre requisitos:**
+
+  A forma como a abordagem ágil lida com as dependências entre os requisitos não é muito clara [11]. Também não se sabe ao certo como deve ser feito o rastreamento das dependências entre os requisitos [11]. Esses dois fatores contribuem para que cada equipe tenha sua própria forma de lidar com as dependências, ou que as dependências não sejam tratadas com a devida importância, ocasionando problemas arquiteturais [11].
+
 ## 6.2 Estratégia de Rastreabilidade de Requisitos
+
+Ao definir a estratégia de rastreabilidade de requisitos que seria utilizada,
+o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente analisando o contexto específico das recomendações do framework SAFe.
 
 ## 6.3 Atributos de Requisitos
 
@@ -146,3 +179,13 @@ Texto sobre Gerenciamento de Requisitos e suas competências
 [5] SAFe 4.0 Introduction. Overview of the Scaled Agile Framework for Lean Software and Systems Engineering.
 
 [6] Zhang, Zheying, 2007. Effective Requirements Development - A Comparison of Requirements Elicitation techniques.
+
+[7] Andrea De Lucia, Abdallah Qusef, 2010. Requirements Engineering in Agile Software Development.
+
+[8] Lan Cao, Balasubramaniam Ramesh, 2008. Agile Requirements Engineering Practices: An Empirical Study.
+
+[9] Armin Eberlein, Julio Cesar Sampaio do Prado Leite, 2002. Agile Requirements Definition: A View from Requirements Engineering
+
+[10] ELSEVIER, The Journal of Systems and Software, 2013. Agile requeriments priorization in large-scala outsourced system projects: An empirical study
+
+[11] Aias Martakis, Maya Daneva, 2013. Handling Requirements Dependencies in Agile Projects: A Focus Group with Agile Software Development Practitioners
