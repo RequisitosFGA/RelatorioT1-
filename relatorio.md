@@ -125,15 +125,15 @@ Em nosso contexto, os principais papéis da gerência de requisitos considerados
 
 1. **Gerência dos artefatos relacionados aos requisitos durante o ciclo de vida do projeto:**
 
-  A gerência dos artefatos relacionados aos requisitos inclui a priorização dos requisitos, a persistência dos requisitos, a configuração de mudança dos requisitos, e a rastreabilidade dos requisitos [8].
+    A gerência dos artefatos relacionados aos requisitos inclui a priorização dos requisitos, a persistência dos requisitos, a configuração de mudança dos requisitos, e a rastreabilidade dos requisitos [8].
 
 2. **Gerência das atividades relacionadas aos requisitos:**
 
-  Diz respeito ao planejamento e acompanhamento das atividades relacionadas as fases da engenharia de requisitos. A gerencia de requisitos é responsável por garantir a eficácia e eficiência das atividades [8].
+    Diz respeito ao planejamento e acompanhamento das atividades relacionadas as fases da engenharia de requisitos. A gerencia de requisitos é responsável por garantir a eficácia e eficiência das atividades [8].
 
 3. **Observação do contexto do sistema:**
 
-  Também é responsabilidade da gerência de requisitos identificar as mudanças do contexto em que o sistema está inserido. Qualquer mudança significativa do contexto do sistema irá desencadear uma série de atividades de gerência de requisitos, por isso monitorar o contexto em que o sistema está inserido é importante [8].
+    Também é responsabilidade da gerência de requisitos identificar as mudanças do contexto em que o sistema está inserido. Qualquer mudança significativa do contexto do sistema irá desencadear uma série de atividades de gerência de requisitos, por isso monitorar o contexto em que o sistema está inserido é importante [8].
 
 
 
@@ -159,15 +159,15 @@ A abordagem ágil, assim como qualquer outra abordagem, precisa lidar com os des
 
 1. **Gerenciamento de requisitos não funcionais:**
 
-  Infelizmente, é comum a falta de consideração com os requisitos não funcionais em abordagens ágeis [11]. Considerar os requisitos não funcionais somente no início do ciclo de vida do projeto é uma grande fonte de problemas [11]. Considerá-los apenas nos ciclos de desenvolvimento, que é uma prática comum de abordagens ágeis, causam problemas ainda maiores [11].
+    Infelizmente, é comum a falta de consideração com os requisitos não funcionais em abordagens ágeis [11]. Considerar os requisitos não funcionais somente no início do ciclo de vida do projeto é uma grande fonte de problemas [11]. Considerá-los apenas nos ciclos de desenvolvimento, que é uma prática comum de abordagens ágeis, causam problemas ainda maiores [11].
 
 2. **Critérios para priorização dos requisitos:**
 
-  Como já foi dito, o maior problema das metodologias ágeis nesse quesito é apenas considerar um critério para priorização dos requisitos: valor de negócio [12]. Entretanto, existem diversos outros critérios que podem ser analisados afim de facilitar as decisões arquiteturais e análise de risco [12].
+    Como já foi dito, o maior problema das metodologias ágeis nesse quesito é apenas considerar um critério para priorização dos requisitos: valor de negócio [12]. Entretanto, existem diversos outros critérios que podem ser analisados afim de facilitar as decisões arquiteturais e análise de risco [12].
 
 3. **Manipulação das dependências entre requisitos:**
 
-  A forma como a abordagem ágil lida com as dependências entre os requisitos não é muito clara [13]. Também não se sabe ao certo como deve ser feito o rastreamento das dependências entre os requisitos [13]. Esses dois fatores contribuem para que cada equipe tenha sua própria forma de lidar com as dependências, ou que as dependências não sejam tratadas com a devida importância, ocasionando problemas arquiteturais [13].
+    A forma como a abordagem ágil lida com as dependências entre os requisitos não é muito clara [13]. Também não se sabe ao certo como deve ser feito o rastreamento das dependências entre os requisitos [13]. Esses dois fatores contribuem para que cada equipe tenha sua própria forma de lidar com as dependências, ou que as dependências não sejam tratadas com a devida importância, ocasionando problemas arquiteturais [13].
 
 ## 6.2 Estratégia de Rastreabilidade de Requisitos
 
