@@ -18,6 +18,12 @@ Relatório T1 - Requisitos
 
 [6. Gerenciamento de Requisitos](#6-gerenciamento-de-requisitos)
 
+  - [6.1 Gerenciamento de Requisitos em Metodologias Àgeis e seus Desafios](#61-gerenciamento-de-requisitos-em-metodologias-ageis-e-seus-desafios)
+
+  - [6.2 Estratégia de Rastreabilidade de Requisitos](#62-estrategia-de-rastreabilidade-de-requisitos)
+
+  - [6.3 Atributos de Requisitos](#63-atributos-de-requisitos)
+
 [7. Ferramenta de Gestão de Requisitos](#7-ferramenta-de-gestão-de-requisitos)
 
 [8. Planejamento do Projeto](#8-planejamento-do-projeto)
@@ -108,6 +114,12 @@ Como nós iremos, a cada planejamento de sprint, aprofundar a descrição dos re
 # 6. Gerenciamento de Requisitos
 
 > Estratégia de Rastreabilidade de Requisitos, Atributos de Requisitos.
+
+## 6.1 Gerenciamento de Requisitos em Metodologias Àgeis e seus Desafios
+
+## 6.2 Estratégia de Rastreabilidade de Requisitos
+
+## 6.3 Atributos de Requisitos
 
 # 7. Ferramenta de Gestão de Requisitos
 
