@@ -115,6 +115,8 @@ Como nós iremos, a cada planejamento de sprint, aprofundar a descrição dos re
 
 > Estratégia de Rastreabilidade de Requisitos, Atributos de Requisitos.
 
+Texto sobre Gerenciamento de Requisitos e suas competências
+
 ## 6.1 Gerenciamento de Requisitos em Metodologias Àgeis
 
 ## 6.2 Estratégia de Rastreabilidade de Requisitos
