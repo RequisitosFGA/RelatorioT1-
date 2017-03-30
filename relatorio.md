@@ -152,7 +152,7 @@ A abordagem ágil, assim como qualquer outra abordagem, precisa lidar com os des
 ## 6.2 Estratégia de Rastreabilidade de Requisitos
 
 Ao definir a estratégia de rastreabilidade de requisitos que seria utilizada,
-o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente analisando o contexto específico das recomendações do framework SAFe.
+o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente analisado com o contexto específico das recomendações do framework SAFe.
 
 ## 6.3 Atributos de Requisitos
 
