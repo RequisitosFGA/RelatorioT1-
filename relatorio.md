@@ -41,9 +41,9 @@ Relatório T1 - Requisitos
 
  É comum termos soluções de softwares onde o cliente pagou para o desenvolvimento de um sistema errado, pagou para encontrar o problema e pagou para consertar [1]. Então, se desejamos economizar tempo e recursos, devemos começar com os requisitos que representam aquilo que queremos. Requisitos ruins, geram sistemas ruins.
 
- Empresas de desenvolvimento e os próprios desenvolvedores sabem a importancia de um bom processo de elaboração de requisitos em um software, porém, os problemas causados pela má elaboração ainda persistem no mercado. Existem sempre desculpas relacionando o problema a falta de tempo, recursos ou treinamentos para que os requisitos sejam realmente bem descritos e elaborados.
+ Empresas de desenvolvimento e os próprios desenvolvedores sabem a importância de um bom processo de engenharia de requisitos em um software, porém, os problemas causados pela má elicitação ainda persistem no mercado. Existem sempre desculpas relacionando o problema a falta de tempo, recursos ou treinamentos para que os requisitos sejam realmente bem descritos e elaborados.
 
- Apesar da proliferação deste tipo de problema, não é fácil encontrar métricas boas sobre o efeito deste tipo de problema, já que raramente temos empresas ou desenvolvedores que monitoram e medem defeitos do sistema e ainda menos que registram os defeitos ou problemas de requisitos.
+ Apesar da proliferação deste tipo de situação dentro do ambiente empresarial, não é fácil encontrar métricas boas sobre o efeito deste tipo de adversidade, já que raramente temos empresas ou desenvolvedores que monitoram e medem defeitos do sistema e ainda menos que registram os defeitos ou problemas específicos de requisitos.
 
  Com base neste contexto, o objetivo deste trabalho é executar o processo de engenharia de requisitos, buscando otimizar o processo de elicitação e garantir que o software descrito atenda as necessidades e agregue valor ao nosso cliente.
 
