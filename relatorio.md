@@ -65,8 +65,8 @@ A Zenit Aerospace é uma empresa júnior do curso de Engenharia Aeroespacial da 
 
  Nosso trabalho envolve um projeto com uma empresa junior federada e reconhecida pela Brasil Junior. Apesar da metodologia diferente do trabalho assalariado comum, a Zenit está lutando no mercado como qualquer outra empresa e se adaptando as mudanças de estrutura interna e dos produtos a todo momento. Assim, alguns processos internos da empresa não estão bem definidos e vem sendo trabalhados constantemente, o que traria problemas para a solução caso trabalhemos com poucas iterações, pois no tempo de desenvolvimento as necessidades podem ter se alterado.   
 
- Uma empresa junior depende obrigatoriamente do trabalho voluntário de seus membros, sendo eles parte de uma universidade. Assim, existe uma grande rotatividade de membros a cada semestre, a estrutura interna está em constante mudança e seus clientes também. Portanto, é interessante estejamos próximos para acompanhar a evolução e as reais necessidades da empresa. Além disso, é uma empresa de pequeno porte e temos poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente organizacional da empresa, que tem grande poder de decisão interna na empresa e em seus processos. 
- 
+ Uma empresa junior depende obrigatoriamente do trabalho voluntário de seus membros, sendo eles parte de uma universidade. Assim, existe uma grande rotatividade de membros a cada semestre, a estrutura interna está em constante mudança e seus clientes também. Portanto, é interessante estejamos próximos para acompanhar a evolução e as reais necessidades da empresa. Além disso, é uma empresa de pequeno porte e temos poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente organizacional da empresa, que tem grande poder de decisão interna na empresa e em seus processos.
+
 O problema atual enfrentado pela Zenit envolve área de gestão de pessoas, pois o processo atual de controle de tarefas e horários é árduo e manual. É favorável que a substituição das tecnologias utilizadas hoje dentro da empresa seja gradual e que possamos validar o uso da ferramenta a cada entrega, ao invés de termos apenas uma entrega completa do sistema de controle. Dessa forma os membros podem ir migrando aos poucos suas informações e se adaptando a nova forma de controle de horários e trabalho.
 
 Além destes fatores internos cidatos da empresa, a própria equipe de desenvolvimento pode afetar a escolha da abordagem a ser utilizada, pois o time será o responsável por executar as tarefas e desenvolver a solução. Nossa equipe é estável e pequena, fato que facilita o alinhamento entre os membros e diminui a necessidade de documentação e rigidez interna. Embora todos os membros tenham experiência com metodologias ágeis e tradicionais.
@@ -177,6 +177,40 @@ A abordagem ágil, assim como qualquer outra abordagem, precisa lidar com os des
 Ao definir a estratégia de rastreabilidade de requisitos que seria utilizada,
 o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente analisado com o contexto específico das recomendações do framework SAFe.
 
+O SAFe possui sua própria forma de lidar com requisitos [14]. Na metodologia, os requisitos são separados em camadas de abstração, cada camada representa uma visão diferente do problema a ser solucionado, e da própria solução em si [14]. Os requisitos são separados da seguinte forma:
+
+* **Épicos:** São iniciativas de desenvolvimento em larga escala, podem ser realizados por várias equipes e precisam, necessariamente, entregar valor de negócio ao cliente [14].
+
+* **Capacidades:** É a representação de uma solução em alto-nível. Existem poucas diferenças entre capacidades e features, uma delas é que a capacidade está um degrau acima em nível de representação, e podem ser desenvolvidas por mais de uma equipe [14].
+
+* **Features:** Representa uma funcionalidade do sistema que resolve, por completo, uma necessidade de algum stakeholder. São implementadas por várias histórias de usuário [14].
+
+* **Histórias de Usuário:** A história de usuário é a fonte primária para definir uma funcionalidade dentro de metodologias ágeis [14].
+
+* **Requisitos não funcionais:** Os requisitos não funcionais representam qualquer item do 'FURPS' (*Functionality, Usability, Reliability, Performance and Supportability*) [14]. No SAFe, os requisitos não funcionais estão relacionados nos backlogs de cada nível do framework [14].
+
+
+Nossa estratégia irá utilizar quatro representações de requisitos utilizados no SAFe, são eles: Épicos, Features, Histórias de Usuário e Requisitos não funcionais. As capacidades não serão utilizadas, unicamente, pelo contexto de nossa solução. A equipe acredita que com três níveis de abstração, somados aos requisitos não funcionais, o problema e a solução estarão bem representados.
+
+A rastreabilidade será feita como recomenda o próprio SAFe, cada épico terá suas features relacionadas, cada feature possuirá suas histórias de usuário relacionadas [14]. Desta forma, será possível administrar melhor as mudanças e a priorização dessas representações e entender os riscos envolvidos a cada mudança ou priorização.
+
+Cada uma dessas representações poderão ser priorizadas entre si, portanto, épicos, features e histórias de usuário, terão critérios para priorização. Uma pesquisa foi realizada para entender melhor quais seriam os principais critérios ao realizar uma priorização em metodologias ágeis. Em alguns projetos de grande porte, os seguintes itens são utilizados como critérios para priorização [12]:
+
+* **Dependência entre requisitos**
+* **Volatilidade do requisito**
+* **Risco associado ao requisito**
+* **Dívidas técnicas**
+* **Critérios e valor de negócio**
+
+Todos esses critérios são avaliados pela experiência da equipe na maioria das vezes [12]. Os riscos associados ao requisito geralmente estão relacionados à arquitetura do sistema, as equipes possuem um integrante do time responsável pelas decisões de arquitetura [12]. O valor de negócio é considerado o critério mais importante em metodologias ágeis, seguido pelas dívidas técnicas ao longo do desenvolvimento [12]. Esses critérios foram obtidos de empresas e projetos de grande porte que utilizam metodologias àgeis para o desenvolvimento [12], entretanto, acreditamos que os critérios sejam de extrema importância para o sucesso do projeto que será desenvolvido, assim como melhorar nossa compreensão em relação aos requisitos.
+
+Administrar a dependência entre os requisitos é essencial para o sucesso do desenvolvimento de um sistema [12]. Para minimizar os possíveis problemas, o ideal é que as features e as histórias de usuário sejam construídas e pensadas de forma independente, mas nem sempre isso é possível [12]. Para resolver os problemas de dependência entre as features e histórias, também foi realizada uma pesquisa para entender quais são as abordagens mais utilizadas para minimizar possíveis complicações. Muitas empresas utilizam o termo desenvolvido por Bill Wake: I.N.V.E.S.T (*Independent, Negotiable, Valuable, Estimable, Small and Testable*) para descrição de suas histórias de usuário [13], pensamos que o mesmo padrão pode ser utilizado para desenvolvimento de nossos épicos, features e histórias de usuário. Por mais que seja quase impossível aplicar perfeitamente cada caracterísitca do INVEST, é importante que a construção das histórias de usuário tente se aproximar o máximo possível [13].
+
+Por fim, os requisitos não funcionais que representem algum item do FURPS(*Functionality, Usability, Reliability, Performance and Supportability*) serão encarados como 'diretrizes do projeto', uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e histórias. Requisitos não funcionais mais específicos serão inseridos como critérios de aceitação [9][14].
+
+
+Portanto, todos esses conceitos serão utilizados para nossa estratégia de rastreabilidade, os três níveis de abstração provenientes do SAFe, os critérios de priorização, modelo para lidar com a dependência entre os requisitos (INVEST), diretrizes do projeto para lidar com requisitos não funcionais genéricos, e critérios de aceitação para os requisitos não funcionais específicos. Todas essas caracterísicas serão de extrema importância para a realização da rastreabilidade.
+
 ## 6.3 Atributos de Requisitos
 
 # 7. Ferramenta de Gestão de Requisitos
@@ -216,3 +250,5 @@ o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objet
 [12] ELSEVIER, The Journal of Systems and Software, 2013. Agile requeriments priorization in large-scala outsourced system projects: An empirical study
 
 [13] Aias Martakis, Maya Daneva, 2013. Handling Requirements Dependencies in Agile Projects: A Focus Group with Agile Software Development Practitioners
+
+[14] SAFe Requirements Model - (http://www.scaledagileframework.com/safe-requirements-model/) Acessado em 30/03/2017.
