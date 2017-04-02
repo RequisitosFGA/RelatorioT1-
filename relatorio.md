@@ -209,9 +209,12 @@ Administrar a dependência entre os requisitos é essencial para o sucesso do de
 Por fim, os requisitos não funcionais que representem algum item do FURPS(*Functionality, Usability, Reliability, Performance and Supportability*) serão encarados como 'diretrizes do projeto', uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e histórias. Requisitos não funcionais mais específicos serão inseridos como critérios de aceitação [9][14].
 
 
-Portanto, todos esses conceitos serão utilizados para nossa estratégia de rastreabilidade, os três níveis de abstração provenientes do SAFe, os critérios de priorização, modelo para lidar com a dependência entre os requisitos (INVEST), diretrizes do projeto para lidar com requisitos não funcionais genéricos, e critérios de aceitação para os requisitos não funcionais específicos. Todas essas caracterísicas serão de extrema importância para a realização da rastreabilidade.
+Portanto, todos esses conceitos serão utilizados para nossa estratégia de rastreabilidade, os três níveis de abstração provenientes do SAFe, os critérios de priorização, o modelo INVEST para lidar com a dependência entre os requisitos, diretrizes do projeto para lidar com requisitos não funcionais genéricos, e critérios de aceitação para os requisitos não funcionais específicos. Todas essas caracterísicas serão de extrema importância para a realização da rastreabilidade.
 
 ## 6.3 Atributos de Requisitos
+
+
+
 
 # 7. Ferramenta de Gestão de Requisitos
 
