@@ -244,6 +244,8 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 # 7. Ferramenta de Gestão de Requisitos
 
 > Avaliar e selecionar uma ferramenta para gestão de requisitos. Deverão ser avaliadas e comparadas, três ferramentas de gerência de requisitos. Apresentar justificativa para a escolha de uma determinada ferramenta de GR.
+### Taiga Agile
+
 
 # 8. Planejamento do Projeto
 
@@ -280,3 +282,5 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 [13] Aias Martakis, Maya Daneva, 2013. Handling Requirements Dependencies in Agile Projects: A Focus Group with Agile Software Development Practitioners
 
 [14] SAFe Requirements Model - (http://www.scaledagileframework.com/safe-requirements-model/) Acessado em 30/03/2017.
+
+[15] Taiga Agile - (https://taiga.io/) Acessado em 30/03/2017.
