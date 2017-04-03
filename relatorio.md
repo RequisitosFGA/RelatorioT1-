@@ -243,7 +243,6 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 
 # 7. Ferramenta de Gestão de Requisitos
 
-> Avaliar e selecionar uma ferramenta para gestão de requisitos. Deverão ser avaliadas e comparadas, três ferramentas de gerência de requisitos. Apresentar justificativa para a escolha de uma determinada ferramenta de GR.
 ### Taiga Agile
 
   Taiga é uma ferramenta para gestão de projetos ágeis, mas não dispensa ferramentas para o tracking de requisitos [15]. A ferramenta foi desenvolvida especificamente para projetos ágeis, rendendo o prêmio de melhor ferramenta ágil no ano de 2015 [15]. A configuração do ambiente é customizável, e a plataforma suporta até três níveis de abstração para o tracking de requisitos [15]. Suas principais funcionalidades são:
