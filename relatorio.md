@@ -116,8 +116,6 @@ Como nós iremos, a cada planejamento de sprint, aprofundar a descrição dos re
 
 # 6. Gerenciamento de Requisitos
 
-> Estratégia de Rastreabilidade de Requisitos, Atributos de Requisitos.
-
 O gerenciamento de requistos, de acordo com Dean Leffingwell é:
 
 > "A systematic approach to eliciting, organizing, and documenting the requirements of the system, and a process that establishes and maintains agreement between the customer and the project team on the changing requirements of the system." - (Dean Leffingwell, Don Widrig, 2003. Mananging Software Requirements: A Use Case Approach).
