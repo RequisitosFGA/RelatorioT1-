@@ -206,15 +206,40 @@ Todos esses critérios, com exceção do último, são avaliados pela experiênc
 
 Administrar a dependência entre os requisitos é essencial para o sucesso do desenvolvimento de um sistema [12]. Para minimizar os possíveis problemas, o ideal é que as features e as histórias de usuário sejam construídas e pensadas de forma independente, mas nem sempre isso é possível [12]. Para resolver os problemas de dependência entre as features e histórias, também foi realizada uma pesquisa para entender quais são as abordagens mais utilizadas para minimizar possíveis complicações. Muitas empresas utilizam o termo desenvolvido por Bill Wake: I.N.V.E.S.T (*Independent, Negotiable, Valuable, Estimable, Small and Testable*) para descrição de suas histórias de usuário [13], pensamos que o mesmo padrão pode ser utilizado para desenvolvimento de nossos épicos, features e histórias de usuário. Por mais que seja quase impossível aplicar perfeitamente cada caracterísitca do INVEST, é importante que a construção das histórias de usuário tente se aproximar o máximo possível [13].
 
-Por fim, os requisitos não funcionais que representem algum item do FURPS(*Functionality, Usability, Reliability, Performance and Supportability*) serão encarados como 'diretrizes do projeto', uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e histórias. Requisitos não funcionais mais específicos serão inseridos como critérios de aceitação [9][14].
+Por fim, os requisitos não funcionais que representem algum item do FURPS(*Functionality, Usability, Reliability, Performance and Supportability*) serão encarados como 'diretrizes do projeto', portanto, serão relacionados com uma ou mais features, dessa forma, todas as histórias de usuário relacionadas aquela feature, terão como herança os requisitos não funcionais. Uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e histórias. Requisitos não funcionais mais específicos de cada história de usuário, serão inseridos como critérios de aceitação [9][14].
 
 
 Portanto, todos esses conceitos serão utilizados para nossa estratégia de rastreabilidade, os três níveis de abstração provenientes do SAFe, os critérios de priorização, o modelo INVEST para lidar com a dependência entre os requisitos, diretrizes do projeto para lidar com requisitos não funcionais genéricos, e critérios de aceitação para os requisitos não funcionais específicos. Todas essas caracterísicas serão de extrema importância para a realização da rastreabilidade.
 
 ## 6.3 Atributos de Requisitos
 
+#### Épicos
+* **Identificador automático:**
+* **Título:**
+* **Descrição:**
+* **Critérios para sucesso:**
+* **Features Relacionadas:**
 
+#### Features
+* **Identificador automático:**
+* **Título:**
+* **Descrição:**
+* **Épico(s) relacionado(s)**
+* **História(s) de usuário relacionada(s):**
 
+#### História de Usuário
+
+* **Identificador automático:**
+* **Título:**
+* **Descrição:**
+* **Pontuação:**
+* **Critérios de aceitação:**
+* **Feature(s) relacionada(s):**
+
+#### Requisitos Não Funcionais(FURPS)
+* **Título:**
+* **Descrição:**
+* **Feature(s) relacionada(s):**  
 
 # 7. Ferramenta de Gestão de Requisitos
 
