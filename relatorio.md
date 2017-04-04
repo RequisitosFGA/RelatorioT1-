@@ -274,6 +274,38 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
   * Acompanhamento dos níveis de abstração em Kanban.
   * Definição de atributos customizável de requisitos.
 
+### Características para escolha da ferramenta
+
+#### Níveis de abstração de requisitos:
+  Capacidade de apresentar os requisitos em nível de épicos, features e histórias.
+  * ZenHub: Trabalha com épicos e suas issues.
+  * Taiga Agile: Trabalha com todos os níveis desejados.
+  * TraceCloud: Trabalha com todos os níveis desejados.
+
+#### Personalização dos atributos dos requisitos:
+  Capacidade de personalizar os atributos de forma a torná-los homogêneos entre os níveis.
+  * ZenHub: Atributos não são homogêneos.
+  * Taiga Agile: Possível criar requisitos com atributos homogêneos.
+  * TraceCloud: Possível criar requisitos com atributos  homogêneos.
+
+#### Acompanhamento do progresso de desenvolvimento:
+  Capacidade de gerar gráficos capazes de mostrar o acompanhamento do projeto.
+  * ZenHub: Gera gráfico de acompanhamento do projeto.
+  * Taiga Agile: Gera gráficos de acompanhamento de Épicos, Features, Sprint e projeto.
+  * TraceCloud: Gera gráfico de acompanhamento do projeto.
+
+#### Rastreabilidade com identificadores únicos:
+  Capacidade de rastrear os requisitos a partir de identificadores.
+  * ZenHub: Possui identificadores únicos.
+  * Taiga Agile: Possui identificadores únicos.
+  * TraceCloud: Possui identificadores únicos.
+
+#### Integração com repositório:
+  Capacidade de integrar o projeto com o repositório do projeto.
+  * ZenHub: Possui integração direta com GitHub.
+  * Taiga Agile: Possui integração com GitHub.
+  * TraceCloud: Não possui integração.
+
 ### Conclusão
 
   Analisando as três plataformas propostas, observando qualidades e funcionalidades coerentes ao projeto proposto, o software escolhido para a gestão dos requisitos foi a Taiga Agile.
