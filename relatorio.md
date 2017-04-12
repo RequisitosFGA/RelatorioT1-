@@ -103,9 +103,9 @@ O segundo aspecto analisado foram os processos envolvidos com a solução. Os pr
   Além da existência e definição dos processos, é importante verificar a frequência com que esses processos mudam. Processos vinculados a solução que possuem uma grande volatilidade, são um indício para a escolha de abordagens ágeis, já que possuem iterações mais curtas e a especificação dos requisitos acontece de forma incremental, podendo atender melhor a realidade de um processo volátil.
 
 
-  O último aspecto analisado é a necessidade de entrega contínua de software funcional. A entrega contínua de software funcional irá realmente agregar valor ao cliente? Caso a resposta seja afirmativa, é um bom indício para a escolha de abordagens ágeis.
+O último aspecto analisado é a necessidade de entrega contínua de software funcional. A entrega contínua de software funcional irá realmente agregar valor ao cliente? Caso a resposta seja afirmativa, é um bom indício para a escolha de abordagens ágeis.
 
-  Após a análise do contexto realizada com a ZENIT, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
+Após a análise do contexto realizada com a ZENIT, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
 
   * Os processos relacionados a solução, ou seja, que estão diretamente ligados ao sistema, não estão bem definidos e vem sendo trabalhados constantemente, o que traria algumas dificuldades utilizando abordagens tradicionais, pois no tempo de desenvolvimento os processos envolvidos podem, e muito provalvemente, serão alterados.
 
