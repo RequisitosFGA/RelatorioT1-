@@ -265,6 +265,27 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 
 # 7. Ferramenta de Gestão de Requisitos
 
+  Três ferramentas foram analisadas para a gestão de requisitos:
+
+### ZenHub
+
+  ZenHub é uma ferramenta de gestão de requisitos utilizada em conjunto com o Github. Uma vez instalado o ZenHub, é possível ver na própria página gráfica do Github uma nova aba de Task Board. Nessa aba, é apresentado um painel drag and drop no estilo Kanban, com quadros personalizáveis que contém prioridades, responsáveis e status das issues no projeto do repositório. ZenHub possui integração com Slack e contém estimativa gráfica de tempo e andamento do projeto[16].
+
+### TraceCloud
+
+  TraceCloud é um gerenciador de requisitos capaz de [17]:
+
+  * Evitar requisitos perdidos.
+  * Evitar requisitos mal-interpretados.
+  * Evitar requisitos orfãos.
+  * Garantir visibilidade da release.
+  * Garantir rastreabilidade completa (árvore e matriz).
+  * Controlar mudanças.
+  * Pode ser usado por metodologias ágeis e tradicionais.
+
+  TraceCloud é um software pago (30,00 dólares por mês).
+
+
 ### Taiga Agile
 
   Taiga é uma ferramenta para gestão de projetos ágeis, mas não dispensa ferramentas para o tracking de requisitos [15]. A ferramenta foi desenvolvida especificamente para projetos ágeis, rendendo o prêmio de melhor ferramenta ágil no ano de 2015 [15]. A configuração do ambiente é customizável, e a plataforma suporta até três níveis de abstração para o tracking de requisitos [15]. Suas principais funcionalidades são:
@@ -276,6 +297,42 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
   * Integração com repositório remoto (Github e Gitlab).
   * Acompanhamento dos níveis de abstração em Kanban.
   * Definição de atributos customizável de requisitos.
+
+### Características para escolha da ferramenta
+
+#### Níveis de abstração de requisitos:
+  Capacidade de apresentar os requisitos em nível de épicos, features e histórias.
+  * ZenHub: Trabalha com épicos e suas issues.
+  * Taiga Agile: Trabalha com todos os níveis desejados.
+  * TraceCloud: Trabalha com todos os níveis desejados.
+
+#### Personalização dos atributos dos requisitos:
+  Capacidade de personalizar os atributos de forma a torná-los homogêneos entre os níveis.
+  * ZenHub: Atributos não são homogêneos.
+  * Taiga Agile: Possível criar requisitos com atributos homogêneos.
+  * TraceCloud: Possível criar requisitos com atributos  homogêneos.
+
+#### Acompanhamento do progresso de desenvolvimento:
+  Capacidade de gerar gráficos capazes de mostrar o acompanhamento do projeto.
+  * ZenHub: Gera gráfico de acompanhamento do projeto.
+  * Taiga Agile: Gera gráficos de acompanhamento de Épicos, Features, Sprint e projeto.
+  * TraceCloud: Gera gráfico de acompanhamento do projeto.
+
+#### Rastreabilidade com identificadores únicos:
+  Capacidade de rastrear os requisitos a partir de identificadores.
+  * ZenHub: Possui identificadores únicos.
+  * Taiga Agile: Possui identificadores únicos.
+  * TraceCloud: Possui identificadores únicos.
+
+#### Integração com repositório:
+  Capacidade de integrar o projeto com o repositório do projeto.
+  * ZenHub: Possui integração direta com GitHub.
+  * Taiga Agile: Possui integração com GitHub.
+  * TraceCloud: Não possui integração.
+
+### Conclusão
+
+  Analisando as três plataformas propostas, observando qualidades e funcionalidades coerentes ao projeto proposto, o software escolhido para a gestão dos requisitos foi a Taiga Agile.
 
 # 8. Planejamento do Projeto
 
@@ -314,3 +371,7 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 [14] SAFe Requirements Model - (http://www.scaledagileframework.com/safe-requirements-model/) Acessado em 30/03/2017.
 
 [15] Taiga Agile - (https://taiga.io/) Acessado em 30/03/2017.
+
+[16] ZenHub - (https://www.zenhub.com/product#product-plan) Acessado em 03/04/2017
+
+[17] TraceCloud - (https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCFeatures.jsp) Acessado em 03/04/2017
