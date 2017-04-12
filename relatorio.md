@@ -23,7 +23,21 @@ Relatório T1 - Requisitos
 
   - [6.1 Gerenciamento de Requisitos em Metodologias Àgeis](#61-gerenciamento-de-requisitos-em-metodologias-àgeis)
 
-  - [6.2 Estratégia de Rastreabilidade de Requisitos](#62-estratégia-de-rastreabilidade-de-requisitos)
+    - [6.1.1 Principais Aspectos e Objetivos](#611-principais-aspectos-e-objetivos)
+
+    - [6.1.2 Principais Desafios](#612-principais-desafios)
+
+  - [6.2 Estratégia de Gerenciamento de Requisitos](#62-estratégia-de-gerenciamento-de-requisitos)
+
+    - [6.2.1 Requisitos e Artefatos](#621-requisitos-e-artefatos)
+
+    - [6.2.2 Rastreabilidade](#622-rastreabilidade)
+
+    - [6.2.3 Priorização](#623-priorização)
+
+    - [6.2.4 Dependência entre requisitos](#624-dependência-entre-requisitos)
+
+    - [6.2.5 Requisitos não funcionais](#625-requisitos-não-funcionais)
 
   - [6.3 Atributos de Requisitos](#63-atributos-de-requisitos)
 
@@ -194,10 +208,13 @@ A abordagem ágil, assim como qualquer outra abordagem, precisa lidar com os des
 
     A forma como a abordagem ágil lida com as dependências entre os requisitos não é muito clara [13]. Também não se sabe ao certo como deve ser feito o rastreamento das dependências entre os requisitos [13]. Esses dois fatores contribuem para que cada equipe tenha sua própria forma de lidar com as dependências, ou que as dependências não sejam tratadas com a devida importância, ocasionando problemas arquiteturais [13].
 
-## 6.2 Estratégia de Rastreabilidade de Requisitos
+## 6.2 Estratégia de Gerência de Requisitos
 
 Ao definir a estratégia de rastreabilidade de requisitos que seria utilizada,
-o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente analisado com o contexto específico das recomendações do framework SAFe.
+o tópico anterior (6.1) foi levado em conta. Acreditamos que os aspectos, objetivos e desafios encontrados nas abordagens ágeis são determinantes para a decisão de rastreabilidade, mesmo que inserida em um contexto específico do framework SAFe. Os aspectos da gerência de requisitos foram analisados, primeiramente, em um contexto mais amplo com as abordagens ágeis, e posteriormente sob o contexto específico das recomendações do framework SAFe.
+
+
+### 6.2.1 Requisitos e Artefatos
 
 O SAFe possui sua própria forma de lidar com requisitos [14]. Na metodologia, os requisitos são separados em camadas de abstração, cada camada representa uma visão diferente do problema a ser solucionado, e da própria solução em si [14]. Os requisitos são separados da seguinte forma:
 
@@ -209,14 +226,42 @@ O SAFe possui sua própria forma de lidar com requisitos [14]. Na metodologia, o
 
 * **Histórias de Usuário:** A história de usuário é a fonte primária para definir uma funcionalidade dentro de metodologias ágeis [14].
 
-* **Requisitos não funcionais:** Os requisitos não funcionais representam qualquer item do 'FURPS' (*Functionality, Usability, Reliability, Performance and Supportability*) [14]. No SAFe, os requisitos não funcionais estão relacionados nos backlogs de cada nível do framework [14].
+* **Requisitos não funcionais:** Os requisitos não funcionais representam qualquer item do 'URPS' (*Usability, Reliability, Performance and Supportability*) [14]. No SAFe, os requisitos não funcionais estão relacionados nos backlogs de cada nível do framework [14].
 
 
-Nossa estratégia irá utilizar quatro representações de requisitos utilizados no SAFe, são eles: Épicos, Features, Histórias de Usuário e Requisitos não funcionais. As capacidades não serão utilizadas, unicamente, pelo contexto de nossa solução. A equipe acredita que com três níveis de abstração, somados aos requisitos não funcionais, o problema e a solução estarão bem representados.
+Dos requisitos definidos pelo SAFe descritos acima, apenas quatro serão utilizados nesse projeto, são eles: Épicos, Features, Histórias de Usuário e Requisitos não funcionais. Para o contexto em que o projeto está inserido, a equipe acredita que com três níveis de abstração, somados aos requisitos não funcionais, o problema e a solução estarão bem representados.
 
-A rastreabilidade será feita como recomenda o próprio SAFe, cada épico terá suas features relacionadas, cada feature possuirá suas histórias de usuário relacionadas [14]. Desta forma, será possível administrar melhor as mudanças e a priorização dessas representações e entender os riscos envolvidos a cada mudança ou priorização.
 
-Cada uma dessas representações poderão ser priorizadas entre si, portanto, épicos, features e histórias de usuário, terão critérios para priorização. Uma pesquisa foi realizada para entender melhor quais seriam os principais critérios ao realizar uma priorização em metodologias ágeis. Em alguns projetos de grande porte, os seguintes itens são utilizados como critérios para priorização [12]:
+Os artefatos utilizados no projeto também seguirão as recomendações estabelecidas pelo framework SAFe, desta forma, os principais artefatos são [14]:
+
+* **Backlog de Épicos**
+
+  O backlog de épicos será construído com as atividades de documentação dos épicos e priorização dos épicos definidas no proceso. Como prevê o SAFe, o tema de investimento será utilizado como base para a formualção dos épicos, e apenas os épicos analisados serão inseridos no backlog [14].
+
+* **Backlog de Features**
+
+  O backlog de features será construído com as atividades de documentação das features e priorização das features definidas no processo. Como prevê o SAFe, o backlog de épicos será utilizado como base para a formulação das features, e apenas as features analisadas serão inseridas no backlog [14].
+
+
+* **Backlog de Histórias de Usuário**
+
+  O backlog de histórias de usuário será construído com as atividades de documentação das histórias e priorização das histórias definidas no processo. Como prevê o SAFe, o backlog de features será utilizado como base para a formulação das histórias de usuário, e apenas as histórias de usuário serão inseridas no backlog [14].
+
+* **Backlog da Sprint**
+
+  O backlog da sprint será construído na reunião de sprint planning, e o backlog das histórias de usuário será utilizado como base para a construção do backlog da sprint.
+
+Todos os artefatos serão documentados **somente** na ferramenta escolhida para gerência de requisitos, assim como o acompanhamento das atividades atreladas. O controle e a manutenção dos artefatos será realizada durante todo o processo de requisitos.
+
+### 6.2.2 Rastreabilidade
+
+A rastreabilidade será feita como recomenda o próprio SAFe, cada épico terá suas features relacionadas e cada feature possuirá suas histórias de usuário relacionadas [14]. Desta forma, será possível administrar melhor as mudanças e a priorização dessas representações e entender os riscos envolvidos a cada mudança ou priorização.
+
+A rastreabilidade será feita de forma automática pela nossa ferramenta de gerência de requisitos. Portanto, a rastreabilidade está atrelada a atividade de documentação dos requisitos(Épicos, Features e Histórias de Usuário). A rastreabilidade acompanha todo o processo de engenharia de requisitos.
+
+### 6.2.3 Priorização
+
+Cada um dos requisitos poderão ser priorizados entre si, portanto, épicos, features e histórias de usuário terão critérios para priorização. Uma pesquisa foi realizada para entender melhor quais seriam os principais critérios ao realizar uma priorização em metodologias ágeis. Em alguns projetos de grande porte, os seguintes itens são utilizados como critérios para priorização [12]:
 
 * **Dependência entre requisitos**
 * **Volatilidade do requisito**
@@ -226,12 +271,18 @@ Cada uma dessas representações poderão ser priorizadas entre si, portanto, é
 
 Todos esses critérios, com exceção do último, são avaliados pela experiência da equipe na maioria das vezes [12]. Os riscos associados ao requisito geralmente estão relacionados à arquitetura do sistema, as equipes possuem um integrante do time responsável pelas decisões de arquitetura [12]. O valor de negócio é considerado o critério mais importante em metodologias ágeis, seguido pelas dívidas técnicas ao longo do desenvolvimento [12]. Esses critérios foram obtidos de empresas e projetos de grande porte que utilizam metodologias àgeis para o desenvolvimento [12], entretanto, acreditamos que os critérios sejam de extrema importância para o sucesso do projeto que será desenvolvido, assim como melhorar nossa compreensão em relação aos requisitos.
 
-Administrar a dependência entre os requisitos é essencial para o sucesso do desenvolvimento de um sistema [12]. Para minimizar os possíveis problemas, o ideal é que as features e as histórias de usuário sejam construídas e pensadas de forma independente, mas nem sempre isso é possível [12]. Para resolver os problemas de dependência entre as features e histórias, também foi realizada uma pesquisa para entender quais são as abordagens mais utilizadas para minimizar possíveis complicações. Muitas empresas utilizam o termo desenvolvido por Bill Wake: I.N.V.E.S.T (*Independent, Negotiable, Valuable, Estimable, Small and Testable*) para descrição de suas histórias de usuário [13], pensamos que o mesmo padrão pode ser utilizado para desenvolvimento de nossos épicos, features e histórias de usuário. Por mais que seja quase impossível aplicar perfeitamente cada caracterísitca do INVEST, é importante que a construção das histórias de usuário tente se aproximar o máximo possível [13].
+A priorização está presente em todos os níveis do processo de engenharia de requisitos. Todas as atividades de priorização serão realizadas com a equipe de desenvolvimento e o product owner.
 
-Por fim, os requisitos não funcionais que representem algum item do FURPS(*Functionality, Usability, Reliability, Performance and Supportability*) serão encarados como 'diretrizes do projeto', portanto, serão relacionados com uma ou mais features, dessa forma, todas as histórias de usuário relacionadas aquela feature, terão como herança os requisitos não funcionais. Uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e histórias. Requisitos não funcionais mais específicos de cada história de usuário, serão inseridos como critérios de aceitação [9][14].
+### 6.2.4 Dependência entre requisitos.
 
+Administrar a dependência entre os requisitos é essencial para o sucesso do desenvolvimento de um sistema [12]. Para minimizar os possíveis problemas, o ideal é que as features e as histórias de usuário sejam construídas e pensadas de forma independente, mas nem sempre isso é possível [12]. Para resolver os problemas de dependência entre as features e histórias, também foi realizada uma pesquisa para entender quais são as abordagens mais utilizadas para minimizar possíveis complicações.
 
-Portanto, todos esses conceitos serão utilizados para nossa estratégia de rastreabilidade, os três níveis de abstração provenientes do SAFe, os critérios de priorização, o modelo INVEST para lidar com a dependência entre os requisitos, diretrizes do projeto para lidar com requisitos não funcionais genéricos, e critérios de aceitação para os requisitos não funcionais específicos. Todas essas caracterísicas serão de extrema importância para a realização da rastreabilidade.
+Diversas empresas utilizam o termo desenvolvido por Bill Wake: I.N.V.E.S.T (*Independent, Negotiable, Valuable, Estimable, Small and Testable*) para descrição das histórias de usuário [13]. O padrão será adotado para a construção dos requisitos presentes no processo de engenharia de requisitos, ou seja, para épicos, features, histórias de usuário e requisitos não funcionais. Por mais que seja quase impossível aplicar perfeitamente cada caracterísitca do INVEST, é importante que a construção das histórias de usuário tente se aproximar o máximo possível [13].
+
+### 6.2.5 Requisitos não funcionais.
+
+Por fim, os requisitos não funcionais que representam algum item do URPS(*Usability, Reliability, Performance and Supportability*) serão atrelados as features, portanto, todas as histórias de usuário relacionadas com a feature em questão, terão como herança os requisitos não funcionais da mesma. Uma abordagem semelhante ao SAFe, que utiliza os requisitos como itens relacionados a cada backlog [14]. Desta forma, requisitos não funcionais genéricos serão aplicados em todas as features e, por consequência, todas as histórias. Requisitos não funcionais mais específicos de cada história de usuário, serão inseridos como critérios de aceitação, por ser uma prática já conhecida no desenvolvimento ágil [9][14].
+
 
 ## 6.3 Atributos de Requisitos
 
@@ -258,7 +309,7 @@ Portanto, todos esses conceitos serão utilizados para nossa estratégia de rast
 * **Critérios de aceitação:**
 * **Feature(s) relacionada(s):**
 
-#### Requisitos Não Funcionais(FURPS)
+#### Requisitos Não Funcionais(URPS)
 * **Título:**
 * **Descrição:**
 * **Feature(s) relacionada(s):**  
