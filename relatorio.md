@@ -13,6 +13,7 @@ Relatório T1 - Requisitos
   - [3.1.1 Análise do Contexto](#311-análise-do-contexto)
   - [3.1.2 Análise do Cliente](#312-análise-do-cliente)
   - [3.1.3 Análise da Equipe de Desenvolvimento](#313-análise-da-equipe-de-desenvolvimento)
+  - [3.1.4 Conclusão](#314-conclusão)
 
 [4. Processo de Engenharia de Requisitos](#4-processo-de-engenharia-de-requisitos)
 
