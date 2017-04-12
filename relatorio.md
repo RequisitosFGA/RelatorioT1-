@@ -10,6 +10,10 @@ Relatório T1 - Requisitos
 
 [3. Justificativa da Abordagem](#3-justificativa-da-abordagem)
 
+  - [3.1.1 Análise do Contexto](#311-análise-do-contexto)
+  - [3.1.2 Análise do Cliente](#312-análise-do-cliente)
+  - [3.1.3 Análise da Equipe de Desenvolvimento](#313-análise-da-equipe-de-desenvolvimento)
+
 [4. Processo de Engenharia de Requisitos](#4-processo-de-engenharia-de-requisitos)
 
   - [4.1 Descrição dos Processos](#41-descrição-dos-processos)
@@ -78,18 +82,81 @@ A Zenit Aerospace é uma empresa júnior do curso de Engenharia Aeroespacial da 
 
  As tecnologias do mercado estão sendo bombardeadas pela velocidade da disrupção. O mercado de start-ups cresceu exponencialmente e diversas novas empresas estão se equiparando e competindo fortemente contra a tradição das globais [5] . Pois, alguns anos atrás o poder empresarial se dava pelo domínio dos meios de produção e do mercado, e hoje temos a globalização e um mercado mais aberto através da internet e das altas tecnologias disponíveis para a população.
 
- Metodologias rígidas e inflexíveis estão fadadas ao fracasso se tentarem lutar contra o processo disruptivo que temos hoje na tecnologia. Pois, em ambientes que existem mudanças contantes, devemos ser capazes de responder na velocidade necessária, nos adaptando aos problemas e entregando o máximo de valor aos clientes [5].
+ Metodologias rígidas e inflexíveis estão fadadas ao fracasso se tentarem lutar contra o processo disruptivo que temos hoje na tecnologia. Em ambientes que existem mudanças contantes, devemos ser capazes de responder na velocidade necessária, nos adaptando aos problemas e entregando o máximo de valor aos clientes [5].
 
- Nosso trabalho envolve um projeto com uma empresa junior federada e reconhecida pela Brasil Junior. Apesar da metodologia diferente do trabalho assalariado comum, a Zenit está lutando no mercado como qualquer outra empresa e se adaptando as mudanças de estrutura interna e dos produtos a todo momento. Assim, alguns processos internos da empresa não estão bem definidos e vem sendo trabalhados constantemente, o que traria problemas para a solução caso trabalhemos com poucas iterações, pois no tempo de desenvolvimento as necessidades podem ter se alterado.   
+ Nosso trabalho envolve um projeto com uma empresa junior federada e reconhecida pela Brasil Junior. Apesar da metodologia diferente do trabalho assalariado comum, a Zenit está lutando no mercado como qualquer outra empresa e se adaptando as mudanças de estrutura interna e dos produtos a todo momento.
 
- Uma empresa junior depende obrigatoriamente do trabalho voluntário de seus membros, sendo eles parte de uma universidade. Assim, existe uma grande rotatividade de membros a cada semestre, a estrutura interna está em constante mudança e seus clientes também. Portanto, é interessante estejamos próximos para acompanhar a evolução e as reais necessidades da empresa. Além disso, é uma empresa de pequeno porte e temos poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente organizacional da empresa, que tem grande poder de decisão interna na empresa e em seus processos.
+ Para escolha da abordagem utilizada, a equipe definiu algumas camadas de extrema importância para análise, são elas: Contexto, Análise do Cliente e Análise da equipe de desenvolvimento. Acreditamos que análise dessas três cadamas sejam muito importantes para uma decisão mais embasada sobre qual abordagem será utilizada.
 
-O problema atual enfrentado pela Zenit envolve área de gestão de pessoas, pois o processo atual de controle de tarefas e horários é árduo e manual. É favorável que a substituição das tecnologias utilizadas hoje dentro da empresa seja gradual e que possamos validar o uso da ferramenta a cada entrega, ao invés de termos apenas uma entrega completa do sistema de controle. Dessa forma os membros podem ir migrando aos poucos suas informações e se adaptando a nova forma de controle de horários e trabalho.
+## 3.1.1 Análise do Contexto
 
-Além destes fatores internos cidatos da empresa, a própria equipe de desenvolvimento pode afetar a escolha da abordagem a ser utilizada, pois o time será o responsável por executar as tarefas e desenvolver a solução. Nossa equipe é estável e pequena, fato que facilita o alinhamento entre os membros e diminui a necessidade de documentação e rigidez interna. Embora todos os membros tenham experiência com metodologias ágeis e tradicionais.
+Essa camada compreende o contexto do problema e as principais necessidades envolvidas que o problema carrega. A primeira característica analisada foi a documentação. É extremamente importante verificar se o projeto necessita de documentação por questões de negócio, interesse do cliente, ou até questões burocráticas, uma vez que as duas abordagens diferem bastante nesse quesito. Enquanto as abordagens tradicionais prezam e recomendam a documentação, as abordagens ágeis pregam justamente o contrário.
 
-Após analisar os fatores descritos de contexto, da equipe e do cliente, escolhemos uma abordagem ágil, utilizando o framework Scaled Agile Framework (SAFe). A nossa proximidade com a sede da empresa e a disponibilidade dos membros com poder de decisão para encontros semanais, além da instabilidade dos processos e  a experiência da equipe, inviabilizam que tomemos uma abordagem tradicional para o projeto. Utilizar o SAFe permitirá que nos adaptemos as mudanças internas da empresa e conhecendo as necessidades reais da Zenit, buscando agregar o máximo de valor no produto final.
+O segundo aspecto analisado foram os processos envolvidos com a solução. Os processos foram analisados sob os seguintes tópicos:
 
+* Existência de processos:
+
+  É extremamente importante verificar se já existem processos bem definidos, e se esses processos estão vinculados de alguma forma com a solução em sistema a ser desenvolvida. Se existem processos bem definidos e a solução está diretamente vinculada com esses processos, pode ser um indício para a escolha de abordagens tradicionais, uma vez que a documentação dos processos já existentes teria que ser levada em conta para o desenvolvimento do sistema.
+
+* Volatilidade dos processos:
+
+  Além da existência e definição dos processos, é importante verificar a frequência com que esses processos mudam. Processos vinculados a solução que possuem uma grande volatilidade, são um indício para a escolha de abordagens ágeis, já que possuem iterações mais curtas e a especificação dos requisitos acontece de forma incremental, podendo atender melhor a realidade de um processo volátil.
+
+
+  O último aspecto analisado é a necessidade de entrega contínua de software funcional. A entrega contínua de software funcional irá realmente agregar valor ao cliente? Caso a resposta seja afirmativa, é um bom indício para a escolha de abordagens ágeis.
+
+  Após a análise do contexto realizada com a ZENIT, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
+
+  * Os processos relacionados a solução, ou seja, que estão diretamente ligados ao sistema, não estão bem definidos e vem sendo trabalhados constantemente, o que traria algumas dificuldades utilizando abordagens tradicionais, pois no tempo de desenvolvimento os processos envolvidos podem, e muito provalvemente, serão alterados.
+
+  * O problema atual enfrentado pela Zenit envolve área de gestão de pessoas, pois o processo atual de controle de tarefas e horários é árduo e manual. É favorável que a substituição das tecnologias utilizadas hoje dentro da empresa seja gradual e que possamos validar o uso da ferramenta a cada entrega, ao invés de termos apenas uma entrega completa do sistema de controle. Dessa forma os membros podem ir migrando aos poucos suas informações e se adaptando a nova forma de controle de horários e trabalho. Nesse contexto, as entregas contínuas serão extremamente necessárias, e irão agregar valor ao cliente.
+
+  * O projeto não necessita de documentação por motivos de negócio, nem por motivos burocráticos e nem por preferência do cliente, mais um forte indício de que a melhor escolha seria uma abordagem ágil.
+
+## 3.1.2 Análise do Cliente
+
+Essa camada compreende algumas características do cliente, dois fatores foram considerados nessa camada, são eles:
+
+  * Quantidade de Stakeholders:
+
+    Analisar a quantidade de stakeholdes é um fator muito importante para a escolha da abordagem. O conflito de interesses entre diferentes stakeholders é um problema para qualquer abordagem, mas as abordagens ágeis parecem enfrentar um desafio maior nesse sentido [10]. Por valorizar mais interações com os clientes do que documentação, é difícil estabelecer um acordo com diversos stakeholders [10].
+
+  * Poder de decisão do cliente:
+
+    As abordagens ágeis dependem muito das informações que o cliente possui e de seu poder de decisão, uma vez que as interações com o cliente não prezam por documentação e o cliente possui um papel importantíssimo na priorização dos requisitos [10]. Caso o cliente não tenha essas características, seria um indício para escolha de abordagens tradicionais.
+
+
+  Após a análise do contexto realizada com a Zenit, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
+
+  *  O projeto a ser desenvolvido possui poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente insitucional da empresa, que tem grande poder de decisão dentro na empresa e em seus processos.
+
+
+
+
+## 3.1.3 Análise da Equipe de Desenvolvimento
+
+  Essa camada compreende algumas características da equipe de desenvolvimento envolvida no projeto, dois fatores foram considerados nessa camada, são eles:
+
+  * Conhecimento da abordagem:
+
+    É extremamente importante que a equipe de desenvolvimento tenha conhecimento da abordagem utilizada no processo de desenvolvimento de software. Entretanto, entre as duas abordagens, a abordagem ágil depende ainda mais desse conhecimento. Isso porque a abordagem ágil interfere até na cultura organizacional em que está inserida e a interação humana é muito importante.
+
+
+  * Rotatividade:
+
+    É importante levar em conta a rotatividade da equipe de desenvolvimento e sua experiência. Caso a equipe seja constante durante todo o projeto, os riscos associados a não possuir uma documentação por exemplo, é bem reduzida. Caso a equipe possua uma rotatividade de membros muito grande, a necessidade de possuir documentação aumenta.
+
+
+Após a análise do contexto realizada com a nossa equipe de desenvolvimento, chegamos a conclusão que nessa camada, a realidade apresentada é favorável para ambas as abordagens, isso porque:
+
+  *  A equipe de desenvolvimento não possui rotatividade, estará junta durante todo o processo de desenvolvimento, e os riscos atrelados são baixíssimos.
+
+  * A equipe tem um bom entendimento de ambas as abordagens.
+
+
+## 3.1.4 Conclusão
+
+Após analisar os fatores descritos acima, escolhemos uma abordagem ágil, utilizando o framework Scaled Agile Framework (SAFe). A nossa proximidade com a sede da empresa, disponibilidade dos membros com poder de decisão para encontros semanais, a instabilidade dos processos envolvidos, a necessidade de entrega contínua de software funcional, e a experiência da equipe, são fatores determinantes para que tomemos uma abordagem ágil. Utilizar o SAFe permitirá que nos adaptemos as mudanças internas da empresa e conhecendo as necessidades reais da Zenit, buscando agregar o máximo de valor no produto final.
 
 
 # 4. Processo de Engenharia de Requisitos
