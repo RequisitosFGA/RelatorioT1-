@@ -12,6 +12,9 @@ Relatório T1 - Requisitos
 
 [4. Processo de Engenharia de Requisitos](#4-processo-de-engenharia-de-requisitos)
 
+  - [4.1 Descrição dos Processos](#41-descrição-dos-processos)
+  - [4.2 MPS-BR](#42-MPS-BR)
+
 [5. Elicitação de Requisitos](#5-elicitação-de-requisitos)
 
   - [5.1 Técnicas de Elicitação](#51-técnicas-de-elicitação)
@@ -77,9 +80,30 @@ Após analisar os fatores descritos de contexto, da equipe e do cliente, escolhe
 
 # 4. Processo de Engenharia de Requisitos
 
-> Processos (Macroprocessos, sub-processos) atividades, papéis e responsabilidades, e suas respectivas descrições. Utilização de práticas e/ou objetivos de algum dos modelos de maturidade (CMMI ou MPS-BR)
+## 4.1 Descrição dos processos
+
+### **Analisar Contexto:**
+### **Definir tema de investimento:**
+### **Elicitar Épicos:**
+### **Analisar Épicos:**
+### **Documentar Épicos:**
+### **Priorizar Épicos:**
+### **Elicitar Features:**
+### **Analisar Features:**
+### **Documentar Features:**
+### **Priorizar Features:**
+### **Elicitar Histórias de Usuário:**
+### **Analisar Histórias de Usuário:**
+### **Documentar Histórias de Usuário:**
+### **Priorizar Histórias de Usuário:**
+### **Construir Backlog de Sprint:**
+### **Especificar Histórias de Usuário:**
+### **Validar Histórias de Usuário:**
+### **Implementar Histórias de Usuário:**
+### **Revisar Sprint:**
 
 
+## 4.2 MPS-BR
 
 
 # 5. Elicitação de Requisitos
