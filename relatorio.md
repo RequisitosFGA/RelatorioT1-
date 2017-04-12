@@ -23,6 +23,10 @@ Relatório T1 - Requisitos
 
   - [6.1 Gerenciamento de Requisitos em Metodologias Àgeis](#61-gerenciamento-de-requisitos-em-metodologias-àgeis)
 
+    - [6.1.1 Principais Aspectos e Objetivos](#611-principais-aspectos-e-objetivos)
+
+    - [6.1.2 Principais Desafios](#612-principais-desafios)
+
   - [6.2 Estratégia de Gerenciamento de Requisitos](#62-estratégia-de-gerenciamento-de-requisitos)
 
     - [6.2.1 Requisitos e Artefatos](#621-requisitos-e-artefatos)
