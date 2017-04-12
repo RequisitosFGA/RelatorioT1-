@@ -83,28 +83,129 @@ Após analisar os fatores descritos de contexto, da equipe e do cliente, escolhe
 ## 4.1 Descrição dos processos
 
 ### **Analisar Contexto:**
+
+Na atividade de analisar contexto, será feito uma reunião com entrevista do time com o cliente para entender o funcionamento da organização, verificar a disponibilidade e o perfil do cliente e entender os problemas enfrentados pela empresa.
+
 ### **Definir tema de investimento:**
+
+Uma vez feita a análise do contexto, será definido o tema de investimento a ser abordado pelo projeto. Esse tema é o problema principal encontrado pela empresa em seu processo, que guiará ao levantamento de Épicos, Features e Histórias de Usuário.
+
 ### **Elicitar Épicos:**
+
+A elicitação de Épicos será feita pelo cliente com a ajuda do time, abordando o tema de investimento proposto para descrever quais serão os Épicos do sistema.
+
 ### **Analisar Épicos:**
+
+Com os Épicos elicitados, será feita uma analise dos mesmos, a fim de garantir sua necessidade e viabilidade no sistema.
+
 ### **Documentar Épicos:**
+
+Os épicos elicitados e validados serão documentados no  Backlog de Épicos na ferramenta de gerência de requisitos.
+
 ### **Priorizar Épicos:**
+
+Dentre os épicos documentados, definir qual ou quais serão priorizados para a implementação no sistema.
+
 ### **Elicitar Features:**
+
+A partir do Backlog de Épicos, serão elicitadas as Features do sistema, quebrando Épicos em grupos de funcionalidades do sistema pelo cliente com a ajuda do time.
+
 ### **Analisar Features:**
+
+Fazer a análise das Features elicitadas, a fim de garantir a viabilidade de cada uma.
+
 ### **Documentar Features:**
+
+As Features validadas serão colocadas no Backlog de Features na ferramenta de gerência de requisitos.
+
 ### **Priorizar Features:**
+
+Selecionar a partir do Backlog de Features, quais delas serão implementadas no sistema.
+
 ### **Elicitar Histórias de Usuário:**
+
+A partir do Backlog de Features, o cliente junto ao time vai escrever Histórias de Usuário para o sistema.
+
 ### **Analisar Histórias de Usuário:**
+
+Analisar as Histórias de Usuário escritas, a fim de garantir a viabilidade das mesmas.
+
 ### **Documentar Histórias de Usuário:**
+
+Documentar no Backlog de Histórias de Usuário as Histórias validadas na ferramenta de gerência de requisitos.
+
 ### **Priorizar Histórias de Usuário:**
+
+Priorizar dentre as Histórias do Backlog quais serão implementadas.
+
 ### **Construir Backlog de Sprint:**
+
+Utilizar do Backlog de Histórias de Usuário para definir quais Histórias serão implementadas na Sprint e colocá-las no Backlog de Sprint na ferramenta de gerência de requisitos.
+
 ### **Especificar Histórias de Usuário:**
+
+A partir do Backlog de Sprint, especificar as histórias de usuário, descrevendo os critérios de aceitação.
+
 ### **Validar Histórias de Usuário:**
+
+Garantir com o cliente que as histórias especificadas estão corretas, para poderem ser implementadas na sprint.
+
 ### **Implementar Histórias de Usuário:**
+
+Utilizar do Backlog de Sprint para que o time implemente o sistema conforme as Histórias de Usuário definidas.
+
 ### **Revisar Sprint:**
 
+Reunir time e cliente para revisar a Sprint, a fim de garantir que o que foi implementado satisfaz os critérios de aceitação.
+
+### **Gerenciar requisitos:**
+
+Avaliar e gerênciar os impactos nas mudanças solicitadas dos requisitos com a ajuda da ferramenta de gerência de requisitos.
 
 ## 4.2 MPS-BR
 
+O Processo de Engenharia de Requisitos foi planejado de acordo com o modelo de maturidade MPS-BR, onde os processos de Engenharia de Requisitos se encontram nos níveis G e D, sendo eles:
+
+#### Nível G: Gerência de Requisitos – GRE
+
+Propósito:
+O propósito do processo Gerência de Requisitos é gerenciar os requisitos do produto e dos componentes do produto do projeto e identificar inconsistências entre os requisitos, os planos do projeto e os produtos de trabalho do projeto.
+
+Resultados esperados:
+
+GRE 1. O entendimento dos requisitos é obtido junto aos fornecedores de requisitos;
+
+GRE 2. Os requisitos são avaliados com base em critérios objetivos e um comprometimento da equipe técnica com estes requisitos é obtido;
+
+GRE 3. A rastreabilidade bidirecional entre os requisitos e os produtos de trabalho é estabelecida e mantida;
+
+GRE 4. Revisões em planos e produtos de trabalho do projeto são realizadas visando identificar e corrigir inconsistências em relação aos requisitos;
+
+GRE 5. Mudanças nos requisitos são gerenciadas ao longo do projeto.
+
+#### Nível D: Desenvolvimento de Requisitos - DRE
+
+Propósito:
+O propósito do processo Desenvolvimento de Requisitos é definir os requisitos do cliente, do produto e dos componentes do produto.
+
+Resultados esperados:
+
+DRE 1. As necessidades, expectativas e restrições do cliente, tanto do produto quanto de suas interfaces, são identificadas;
+
+DRE 2. Um conjunto definido de requisitos do cliente é especificado e priorizado a partir das necessidades, expectativas e restrições
+identificadas;
+
+DRE 3. Um conjunto de requisitos funcionais e não-funcionais, do produto e dos componentes do produto que descrevem a solução do problema a ser resolvido, é definido e mantido a partir dos requisitos do cliente;
+
+DRE 4. Os requisitos funcionais e não-funcionais de cada componente do produto são refinados, elaborados e alocados;
+DRE 5. Interfaces internas e externas do produto e de cada componente do produto são definidas;
+
+DRE 6. Conceitos operacionais e cenários são desenvolvidos;
+
+DRE 7. Os requisitos são analisados, usando critérios definidos, para balancear as necessidades dos interessados com as restrições
+existentes;
+
+DRE 8. Os requisitos são validados.
 
 # 5. Elicitação de Requisitos
 
