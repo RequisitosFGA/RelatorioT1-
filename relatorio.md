@@ -280,6 +280,7 @@ identificadas;
 DRE 3. Um conjunto de requisitos funcionais e não-funcionais, do produto e dos componentes do produto que descrevem a solução do problema a ser resolvido, é definido e mantido a partir dos requisitos do cliente;
 
 DRE 4. Os requisitos funcionais e não-funcionais de cada componente do produto são refinados, elaborados e alocados;
+
 DRE 5. Interfaces internas e externas do produto e de cada componente do produto são definidas;
 
 DRE 6. Conceitos operacionais e cenários são desenvolvidos;
@@ -288,6 +289,44 @@ DRE 7. Os requisitos são analisados, usando critérios definidos, para balancea
 existentes;
 
 DRE 8. Os requisitos são validados.
+
+#### Relação do Processo com o MPS-BR
+
+GRE 1: São vistos os resultados esperados nas atividades de Elicitar Épicos, Elicitar Features e Elicitar Histórias de Usuário
+
+GRE 2: São vistos os resultados esperados nas atividades de Analisar Épicos, Analisar Features e Analisar Histórias de Usuário.
+
+GRE 3: São vistos os resultados esperados nas atividades de
+Documentar Épicos, Documentar Features e Documentar Histórias de Usuário.
+
+GRE 4 e 5: São vistos os resultados esperados na atividade de
+Gerenciar Requisitos.
+
+
+DRE 1: São vistos os resultados esperados nas atividades de
+Elicitar Épicos, Elicitar Features e Elicitar Histórias de Usuário.
+
+DRE 2: São vistos os resultados esperados nas atividades de
+Priorizar Épicos, Priorizar Features e Priorizar Histórias de Usuário.
+
+DRE 3: São vistos os resultados esperados nas atividades de
+Documentar Épicos, Documentar Features e Documentar Histórias de Usuário.
+
+DRE 4: São vistos os resultados esperados nas atividades de
+Priorizar Épicos, Priorizar Features e Priorizar Histórias de Usuário.
+
+DRE 5: São vistos os resultados esperados nas atividades de
+Elicitar Épicos, Elicitar Features e Elicitar Histórias de Usuário.
+
+DRE 6: São vistos os resultados esperados nas atividades de
+Analisar Épicos, Analisar Features e Analisar Histórias de Usuário.
+
+DRE 7: São vistos os resultados esperados nas atividades de
+Analisar Épicos, Analisar Features e Analisar Histórias de Usuário.
+
+DRE 8: São vistos os resultados esperados no fim de todas as priorizações.
+
+
 
 # 5. Elicitação de Requisitos
 
