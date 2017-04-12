@@ -178,7 +178,7 @@ Avaliar e gerênciar os impactos nas mudanças solicitadas dos requisitos com a 
 
 ## 4.2 MPS-BR
 
-O Processo de Engenharia de Requisitos foi planejado de acordo com o modelo de maturidade MPS-BR, onde os processos de Engenharia de Requisitos se encontram nos níveis G e D, sendo eles:
+O Processo de Engenharia de Requisitos foi planejado de acordo com o modelo de maturidade MPS-BR, onde os processos de Engenharia de Requisitos se encontram nos níveis G e D, sendo eles[18]:
 
 #### Nível G: Gerência de Requisitos – GRE
 
@@ -527,3 +527,5 @@ Por fim, os requisitos não funcionais que representam algum item do URPS(*Usabi
 [16] ZenHub - (https://www.zenhub.com/product#product-plan) Acessado em 03/04/2017
 
 [17] TraceCloud - (https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCFeatures.jsp) Acessado em 03/04/2017
+
+[18] SoftTex - (http://www.softex.br/wp-content/uploads/2013/07/MPS.BR_Guia_Geral_Software_2012-c-ISBN-1.pdf) Acessado em 12/04/2017
