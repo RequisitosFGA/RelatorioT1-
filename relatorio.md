@@ -7,6 +7,7 @@ Relatório T1 - Requisitos
 [2. Contexto Da Empresa (Zenit)](#2-contexto-da-empresa-zenit)
 
   - [2.1 Resumo Zenit](#21-resumo-zenit)
+  - [2.2 Contexto do problema](#22-contexto-do-problema)
 
 [3. Justificativa da Abordagem](#3-justificativa-da-abordagem)
 
