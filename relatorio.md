@@ -102,14 +102,14 @@ O segundo aspecto analisado foram os processos envolvidos com a solução. Os pr
 
 * Existência de processos:
 
-  É extremamente importante verificar se já existem processos bem definidos, e se esses processos estão vinculados de alguma forma com a solução em sistema a ser desenvolvida. Se existem processos bem definidos e a solução está diretamente vinculada com esses processos, pode ser um indício para a escolha de abordagens tradicionais, uma vez que a documentação dos processos já existentes teria que ser levada em conta para o desenvolvimento do sistema.
+  É extremamente importante verificar se já existem processos bem definidos, e se esses processos estão vinculados de alguma forma com a solução em sistema a ser desenvolvida. Se existem processos bem definidos e a solução está diretamente vinculada com esses processos, pode ser um indício para a escolha de abordagens tradicionais, uma vez que a documentação dos processos já existentes teria que ser levada em conta para o desenvolvimento do sistema [20].
 
 * Volatilidade dos processos:
 
-  Além da existência e definição dos processos, é importante verificar a frequência com que esses processos mudam. Processos vinculados a solução que possuem uma grande volatilidade, são um indício para a escolha de abordagens ágeis, já que possuem iterações mais curtas e a especificação dos requisitos acontece de forma incremental, podendo atender melhor a realidade de um processo volátil.
+  Além da existência e definição dos processos, é importante verificar a frequência com que esses processos mudam. Processos vinculados a solução que possuem uma grande volatilidade, são um indício para a escolha de abordagens ágeis, já que possuem iterações mais curtas e a especificação dos requisitos acontece de forma incremental, podendo atender melhor a realidade de um processo volátil [19].
 
 
-O último aspecto analisado é a necessidade de entrega contínua de software funcional. A entrega contínua de software funcional irá realmente agregar valor ao cliente? Caso a resposta seja afirmativa, é um bom indício para a escolha de abordagens ágeis.
+O último aspecto analisado é a necessidade de entrega contínua de software funcional. A entrega contínua de software funcional irá realmente agregar valor ao cliente? Caso a resposta seja afirmativa, é um bom indício para a escolha de abordagens ágeis [19].
 
 Após a análise do contexto realizada com a ZENIT, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
 
@@ -125,16 +125,20 @@ Essa camada compreende algumas características do cliente, dois fatores foram c
 
   * Quantidade de Stakeholders:
 
-    Analisar a quantidade de stakeholdes é um fator muito importante para a escolha da abordagem. O conflito de interesses entre diferentes stakeholders é um problema para qualquer abordagem, mas as abordagens ágeis parecem enfrentar um desafio maior nesse sentido [10]. Por valorizar mais interações com os clientes do que documentação, é difícil estabelecer um acordo com diversos stakeholders [10].
+    Analisar a quantidade de stakeholdes é um fator muito importante para a escolha da abordagem. O conflito de interesses entre diferentes stakeholders é um problema para qualquer abordagem, mas as abordagens ágeis parecem enfrentar um desafio maior nesse sentido [10]. Por valorizar mais interações com os clientes do que documentação, é difícil estabelecer um acordo com diversos stakeholders [10][19].
 
   * Poder de decisão do cliente:
 
     As abordagens ágeis dependem muito das informações que o cliente possui e de seu poder de decisão, uma vez que as interações com o cliente não prezam por documentação e o cliente possui um papel importantíssimo na priorização dos requisitos [10]. Caso o cliente não tenha essas características, seria um indício para escolha de abordagens tradicionais.
 
+  * Disponibilidade do cliente:
+
+    A disponibilidade do cliente é um fator extremamente importante para abordagens ágeis, uma vez que a interação com o cliente é um dos valores ágeis [19].Caso o cliente não possua disponibilidade, ou não exista nenhuma pessoa capaz de fazer o papel de cliente com disponibildiade, escolher uma abordagem ágil é um risco grande [10].
+
 
   Após a análise do contexto realizada com a Zenit, chegamos a conclusão que nessa camada, a realidade apresentada é mais favorável para abordagens ágeis, isso porque:
 
-  *  O projeto a ser desenvolvido possui poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente insitucional da empresa, que tem grande poder de decisão dentro na empresa e em seus processos.
+  *  O projeto a ser desenvolvido possui poucos stakeholders envolvidos no projeto, sendo o principal a atual presidente insitucional da empresa, que tem grande poder de decisão dentro na empresa e em seus processos. Além de possuir grande disponibilidade para acompanhamento do projeto [19].
 
 
 
@@ -150,7 +154,7 @@ Essa camada compreende algumas características do cliente, dois fatores foram c
 
   * Rotatividade:
 
-    É importante levar em conta a rotatividade da equipe de desenvolvimento e sua experiência. Caso a equipe seja constante durante todo o projeto, os riscos associados a não possuir uma documentação por exemplo, é bem reduzida. Caso a equipe possua uma rotatividade de membros muito grande, a necessidade de possuir documentação aumenta.
+    É importante levar em conta a rotatividade da equipe de desenvolvimento e sua experiência. Caso a equipe seja constante durante todo o projeto, os riscos associados a não possuir uma documentação por exemplo, é bem reduzida. Caso a equipe possua uma rotatividade de membros muito grande, a necessidade de possuir documentação aumenta [10][19][20].
 
 
 Após a análise do contexto realizada com a nossa equipe de desenvolvimento, chegamos a conclusão que nessa camada, a realidade apresentada é favorável para ambas as abordagens, isso porque:
@@ -502,32 +506,28 @@ Por fim, os requisitos não funcionais que representam algum item do URPS(*Usabi
 ## 6.3 Atributos de Requisitos
 
 #### Épicos
-* **Identificador automático:**
-* **Título:**
-* **Descrição:**
-* **Critérios para sucesso:**
-* **Features Relacionadas:**
+* **Identificador automático:** Identificador automático gerado pela ferramenta de gerenciamento de requisitos.
+* **Título**
+* **Descrição**
+* **Critérios para sucesso**
+* **Features Relacionadas:** Lista de features relacionadas, gerada automaticamente pela ferramenta de gerenciamento de requisitos.
 
 #### Features
-* **Identificador automático:**
-* **Título:**
-* **Descrição:**
-* **Épico(s) relacionado(s)**
-* **História(s) de usuário relacionada(s):**
+* **Identificador automático:** Identificador automático gerado pela ferramenta de gerenciamento de requisitos.
+* **Título**
+* **Descrição**
+* **Épico(s) relacionado(s):** Lista de épicos relacionados, gerada automaticamente pela ferramenta de gerenciamento de requisitos.
+* **História(s) de usuário relacionada(s):** Lista de histórias de usuário relacionadas, gerada automaticamente pela ferramenta de gerenciamento de requisitos.
+* **Requisitos não funcionais (URPS)**
 
 #### História de Usuário
 
-* **Identificador automático:**
-* **Título:**
-* **Descrição:**
-* **Pontuação:**
-* **Critérios de aceitação:**
-* **Feature(s) relacionada(s):**
-
-#### Requisitos Não Funcionais(URPS)
-* **Título:**
-* **Descrição:**
-* **Feature(s) relacionada(s):**  
+* **Identificador automático:** Identificador automático gerado pela ferramenta de gerenciamento de requisitos.
+* **Título**
+* **Descrição**
+* **Pontuação**
+* **Critérios de aceitação**
+* **Feature(s) relacionada(s):** Lista de features relacionadas, gerada automaticamente pela ferramenta de gerenciamento de requisitos.
 
 # 7. Ferramenta de Gestão de Requisitos
 
@@ -602,7 +602,6 @@ Por fim, os requisitos não funcionais que representam algum item do URPS(*Usabi
 
 # 8. Planejamento do Projeto
 
-> Cronograma do Projeto. Macro-atividades e atividades. Datas de início e fim das atividades. Percentual de execução de cada atividade. Responsáveis por cada atividade. Estabelecimento de precedência entre as atividades.
 
 
 # 9. Considerações Finais
@@ -643,3 +642,7 @@ Por fim, os requisitos não funcionais que representam algum item do URPS(*Usabi
 [17] TraceCloud - (https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCFeatures.jsp) Acessado em 03/04/2017
 
 [18] SoftTex - (http://www.softex.br/wp-content/uploads/2013/07/MPS.BR_Guia_Geral_Software_2012-c-ISBN-1.pdf) Acessado em 12/04/2017
+
+[19] Agile Manifesto - (http://agilemanifesto.org/principles.html) Acessado pela última vez em 12/04/2017
+
+[20] Rational Unified Process Best Practices for Software Development Teams - (https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf) Acessado pela última vez em 12/04/2017
