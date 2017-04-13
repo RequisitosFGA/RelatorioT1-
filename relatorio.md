@@ -167,6 +167,8 @@ Após analisar os fatores descritos acima, escolhemos uma abordagem ágil, utili
 
 # 4. Processo de Engenharia de Requisitos
 
+![Processo de Requisitos]('./processoDeRequisitos.png')
+
 ## 4.1 Descrição dos processos
 
 ### **Analisar Contexto:**
