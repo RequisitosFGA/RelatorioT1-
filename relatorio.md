@@ -77,7 +77,11 @@ Ao longo deste semestre nós trabalharemos no desenvolvimento de uma solução e
 
 A Zenit Aerospace é uma empresa júnior do curso de Engenharia Aeroespacial da Universidade de Brasília, que tem como objetivo prover aos estudantes um primeiro contato com o mercado de trabalho. Atualmente a empresa possui 4 serviços, sendo eles: Consultoria em projetos aeroespaciais, fabricação de espelhos para telescópio, serviços com drones e também um projeto chamado Escola Espacial, onde palestras, cursos e workshops são ministrados para escolas do DF e entorno.
 
+## 2.2 Contexto do problema
 
+Empresas Juniores, em suma, são compostas por alunos de graduação e portanto necessitam de horários flexíveis para os membros conseguirem conciliar seus horários de aulas com os horários de trabalho. Apesar disto, a área de gestão de pessoas da Zenit Aerospace, tem a necessidade de controlar as horas de trabalho dos membros e tarefas que estão sendo executadas nestes horários. Além disso, a área de marketing da empresa tem uma campanha de captação de clientes, que utiliza de contatos e informações dos mesmos, para fazer contato.
+
+Atualmente, para o controle de horas trabalhadas é utilizado um software genérico, que, em alguns casos, não atende todas as necessidades e no controle de informações dos clientes é utilizado um software que dificulta o acesso remoto.
 
 # 3. Justificativa da abordagem
 
