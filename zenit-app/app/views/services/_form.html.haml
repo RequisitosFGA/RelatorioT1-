@@ -1,0 +1,15 @@
+= simple_form_for(@service, html: {class: 'form_horizontal'}) do |f|
+    = f.input :project_name, label: "Nome do projeto"
+    = f.input :manager_name, label: "Nome do gerente"
+    = f.input :manager_phone, label: "Telefone do gerente"
+    = f.input :manager_email, label: "Email do gerente"
+    = f.input :client_name, label: "Nome do cliente"
+    = f.input :client_phone, label: "Telefone do cliente"
+    = f.input :client_cpf, label: "CPF/CNPJ do cliente"
+    = f.input :client_email, label: "Email do cliente"
+    = f.input :first_contact_date, label: "Data do primeiro contato"
+    = f.input :contract_signature_date, label: "Data de assinatura do contrato"
+    = f.input :project_value, label: "Valor do projeto"
+
+    %br/
+    = f.button :submit

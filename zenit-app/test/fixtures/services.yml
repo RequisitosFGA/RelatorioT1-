@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_name: MyString
+  manager_name: MyString
+  manager_phone: MyString
+  manager_email: MyString
+  client_name: MyString
+  client_phone: MyString
+  client_cpf: MyString
+  client_email: MyString
+  first_contact_date: 2017-06-01
+  contract_signature_date: 2017-06-01
+  project_value: 
+
+two:
+  project_name: MyString
+  manager_name: MyString
+  manager_phone: MyString
+  manager_email: MyString
+  client_name: MyString
+  client_phone: MyString
+  client_cpf: MyString
+  client_email: MyString
+  first_contact_date: 2017-06-01
+  contract_signature_date: 2017-06-01
+  project_value: 

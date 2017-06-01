@@ -1,0 +1,19 @@
+#services
+    .service
+        %h2= @service.project_name
+        %p= @service.manager_name
+        %p= @service.manager_phone
+        %p= @service.manager_email
+        %p= @service.client_name
+        %p= @service.client_phone
+        %p= @service.client_cpf
+        %p= @service.client_email
+        %p= @service.first_contact_date
+        %p= @service.contract_signature_date
+        %p= @service.project_value
+
+#links
+    = link_to "Voltar", root_path, class:"btn btn-sm btn-default"
+    = link_to "Editar", edit_service_path(@service), class:"btn btn-sm btn-default"
+    = link_to "Deletar", service_path(@service), method: :delete,
+     data: { confirm: "Tem certeza que deseja apagar este serviço?"}, class:"btn btn-sm btn-default"

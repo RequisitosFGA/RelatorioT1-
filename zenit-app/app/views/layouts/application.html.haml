@@ -1,0 +1,15 @@
+%html
+%head
+    %title Zenit
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+%body
+    %nav.navbar.navbar-default
+        .container
+            .navbar-brand Zenit
+            %ul.nav.navbar-nav
+                %li= link_to "Serviços", root_path
+                = link_to "Novo serviço", new_service_path, class: "navbar-text navbar-rigth navbar-link"
+        .container
+            = yield

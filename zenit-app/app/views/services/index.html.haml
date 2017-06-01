@@ -1,0 +1,6 @@
+#services
+    - @services.each do |service|
+        .service
+            %h2= link_to service.project_name, service
+            %p= service.first_contact_date
+            %p= service.project_value
